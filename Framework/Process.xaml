@@ -54,6 +54,9 @@
       <x:String>System.Activities.Runtime.Collections</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>System.Numerics</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -122,6 +125,8 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
       <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -129,16 +134,15 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="1363,1044.6566666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="1075,1134.6566666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence | Process" sap:VirtualizedContainerService.HintSize="512,762" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="Sequence | Process" sap:VirtualizedContainerService.HintSize="512,762" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="estado" />
         <Variable x:TypeArguments="x:String" Name="salario" />
         <Variable x:TypeArguments="x:String" Name="pai" />
         <Variable x:TypeArguments="x:String" Name="mae" />
@@ -146,16 +150,17 @@
         <Variable x:TypeArguments="x:String" Name="idade" />
         <Variable x:TypeArguments="x:String" Name="cargo" />
         <Variable x:TypeArguments="x:String" Name="empresa" />
+        <Variable x:TypeArguments="x:String" Name="estado" />
         <Variable x:TypeArguments="x:String" Name="cidade" />
-        <Variable x:TypeArguments="x:String" Name="nome" />
         <Variable x:TypeArguments="x:String" Name="logradouro" />
+        <Variable x:TypeArguments="x:String" Name="nome" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MultipleAssign DisplayName="Multiple Assign | TransactionItem" sap:VirtualizedContainerService.HintSize="478,459" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+      <ui:MultipleAssign DisplayName="Multiple Assign | TransactionItem" sap:VirtualizedContainerService.HintSize="478,459" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
         <ui:MultipleAssign.AssignOperations>
           <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -182,7 +187,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Cidadde").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[estado]</OutArgument>
               </ui:AssignOperation.To>
@@ -190,7 +195,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Estado").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[empresa]</OutArgument>
               </ui:AssignOperation.To>
@@ -198,7 +203,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Empresa").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[cargo]</OutArgument>
               </ui:AssignOperation.To>
@@ -206,7 +211,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Cargo").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[idade]</OutArgument>
               </ui:AssignOperation.To>
@@ -214,7 +219,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Idade").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[sexo]</OutArgument>
               </ui:AssignOperation.To>
@@ -222,7 +227,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Sexo").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[mae]</OutArgument>
               </ui:AssignOperation.To>
@@ -230,7 +235,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Mãe").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[pai]</OutArgument>
               </ui:AssignOperation.To>
@@ -238,7 +243,7 @@
                 <InArgument x:TypeArguments="x:String">[in_TransactionItem.Item("Pai").ToString.Trim]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[salario]</OutArgument>
               </ui:AssignOperation.To>
@@ -255,11 +260,26 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
-      <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item | webForm" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="478,220" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="webForm" Reference="[logradouro]">
+      <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item | webForm" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="478,220" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="webForm" Reference="[nome]">
         <ui:AddQueueItem.ItemInformation>
-          <InArgument x:TypeArguments="x:String" x:Key="idTekken">[nome]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="nick">[logradouro]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="nome ">[nome]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="logradouro">[logradouro]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="cidade">[cidade]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="estado">[estado]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="empresa">[empresa]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="cargo">[cargo]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="idade">[idade]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="sexo">[sexo]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="mae">[mae]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="pai">[pai]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="salario">[salario]</InArgument>
         </ui:AddQueueItem.ItemInformation>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </ui:AddQueueItem>
     </Sequence>
   </Sequence>
