@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dKerJLNTbESkziadbynWYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wank.wavu.wiki/player/3rYmEAanFmfn" DesignTimeRectangle="123, 447, 162, 129" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='rating' tag='DIV' type='' aaname='                                                                                                                                                                     ' check:innerText='Anna&amp;#xA;μ 2618&amp;#xA;σ² 66&amp;#xA;396 games&amp;#xA;15 de abr. de 25' /&gt;" Guid="39303253-9355-4372-9862-3c574f41350a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TTV_leemishima • Wavu Wank' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="30ed9f47-d394-4540-ace1-6b3cf026b606" DesignTimeRectangle="0, 0, 0, 0" ElementType="Text" FullSelectorArgument="&lt;webctrl class='char' tag='DIV' /&gt;" Guid="77e9b13c-7fc5-4ccd-ad1a-bad63ce310cf" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d1d4d6e88788f057fcb367c3336ffea.png" xmlns="">0Bze1cdIMaUKi1t5WBxoF0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

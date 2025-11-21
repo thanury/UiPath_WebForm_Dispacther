@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xzP7u54OEECKYgsgLw5vIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wank.wavu.wiki/player/5m6Lj5Jb6MfQ" CVScreenId="d72eb0be-b55c-4b82-9c76-6738871b8820" CvTextArea="165, 453, 77, 24" CvType="AnyWordGroup" DesignTimeRectangle="123, 415, 324, 161" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='char' tag='DIV' type='' /&gt;" Guid="d15347bb-948a-46de-9848-1bae03b0f527" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Quickster • Wavu Wank' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d72eb0be-b55c-4b82-9c76-6738871b8820" DesignTimeRectangle="123, 451, 162, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl class='char' tag='DIV' /&gt;" Guid="00538608-36bf-41ea-8fe9-31885e134776" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="831da6709a11ea582a084abc80b24e4a.png" xmlns="">0Q3yg-As350mg-WEjFLreGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

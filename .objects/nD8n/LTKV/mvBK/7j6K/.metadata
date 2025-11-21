@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Panda",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "7j6Kg71CXUSQ6vdo0dtowA",
+  "Reference": "YsYKc-9YZUW6ykS8Z3jUyA/7j6Kg71CXUSQ6vdo0dtowA",
+  "ParentRef": "YsYKc-9YZUW6ykS8Z3jUyA/mvBKSnmek06wNlKmgZedFA",
+  "Created": "2025-04-15T13:54:39.7764806Z",
+  "Updated": "2025-04-15T13:54:39.7764806Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

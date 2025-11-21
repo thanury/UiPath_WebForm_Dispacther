@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Wavu Wank",
+  "Type": "Screen",
+  "Id": "mvBKSnmek06wNlKmgZedFA",
+  "Reference": "YsYKc-9YZUW6ykS8Z3jUyA/mvBKSnmek06wNlKmgZedFA",
+  "ParentRef": "YsYKc-9YZUW6ykS8Z3jUyA/LTKVejsNk0elN9yYZI3oEw",
+  "Created": "2025-04-15T13:45:39.2464121Z",
+  "Updated": "2025-04-15T13:45:39.2464121Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

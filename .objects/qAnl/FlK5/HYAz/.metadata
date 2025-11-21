@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome freelancermap.com  Freelance IT projec",
+  "Type": "Screen",
+  "Id": "HYAz7i_Ff0ypc8YOqxB0AA",
+  "Reference": "YsYKc-9YZUW6ykS8Z3jUyA/HYAz7i_Ff0ypc8YOqxB0AA",
+  "ParentRef": "YsYKc-9YZUW6ykS8Z3jUyA/FlK5c-5slEeeyVYe2TUXHg",
+  "Created": "2025-04-15T12:41:15.4041815Z",
+  "Updated": "2025-04-15T12:41:15.4041815Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

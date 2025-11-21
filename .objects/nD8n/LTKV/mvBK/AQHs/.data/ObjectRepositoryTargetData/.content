@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="16F66r-G1k6RyOcl9XlvSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wank.wavu.wiki/player/23qT5qmjBLHT" CVScreenId="2c1503ab-0fdf-4661-8c32-d7d51b4e5a3c" CvTextArea="169, 442, 67, 22" CvType="AnyWordGroup" DesignTimeRectangle="123, 403, 324, 161" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='char' tag='DIV' type='' /&gt;" Guid="dc6afa06-b529-40b0-add1-0204a5124909" ScopeSelectorArgument="&lt;html app='chrome.exe' title='2G_Doomorelha • Wavu Wank' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2c1503ab-0fdf-4661-8c32-d7d51b4e5a3c" DesignTimeRectangle="123, 439, 162, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl class='char' tag='DIV' /&gt;" Guid="d0b50212-994a-47a3-94ae-2bc7aa00eb9e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1dedcd655cd9d5791292da1c846a995d.png" xmlns="">0VoOzLqnxbEC_S4V0ng570Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3tWNPM1RZkeMsBXVawSc5Q" Reference="YsYKc-9YZUW6ykS8Z3jUyA/u1IJ6B9TekqJenpiJ2TLJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wank.wavu.wiki/player/23qT5qmjBLHT" CVScreenId="4313be50-eca0-4bb6-a131-110348760f0e" DesignTimeRectangle="0, 0, 1382, 736" DesignTimeScaleFactor="1" ElementType="Text" Guid="503724dd-466b-4f19-a0e1-4a1fe097a2d5" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='2G_Doomorelha • Wavu Wank' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8e1e47dbdb26598d2e27ba429ae9104b.png" xmlns="">01JNzZ4mBHk-PK81qWJiIfg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
